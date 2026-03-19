@@ -13,6 +13,8 @@ import java.util.Scanner;
 public class JavaApplication3 {
 
     static String calculateGrade(double percentage) {
+        System.out.println("Hello from Abdul Hadi!");
+        System.out.println("Learning Git and Java!");
         if (percentage >= 85) return "A";
         else if (percentage >= 70) return "B";
         else if (percentage >= 50) return "C";
